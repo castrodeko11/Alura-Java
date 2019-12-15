@@ -1,0 +1,10 @@
+package concessionária;
+
+public class TestaCarro {
+	public static void main(String[] args) {
+		
+		Carro carro = new Carro();
+		carro.setAno(2013);
+	}
+
+}

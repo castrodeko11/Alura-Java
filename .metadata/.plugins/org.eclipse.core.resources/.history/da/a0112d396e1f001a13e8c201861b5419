@@ -1,0 +1,8 @@
+package concessionária;
+
+public class Carro {
+	private int ano;
+	private String modelo;
+	private double preco;
+
+}
