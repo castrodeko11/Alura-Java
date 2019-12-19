@@ -3,4 +3,8 @@
     <fullyQualifiedTypeName name="bytebank.Conta"/>
     <fullyQualifiedTypeName name="Cliente"/>
     <fullyQualifiedTypeName name="Conta"/>
+    <fullyQualifiedTypeName name="concessionária.Carro"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="TesteFuncionario"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
 </qualifiedTypeNameHistroy>
