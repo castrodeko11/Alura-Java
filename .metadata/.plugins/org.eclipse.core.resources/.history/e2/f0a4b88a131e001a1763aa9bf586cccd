@@ -1,7 +1,0 @@
-
-public class TestaBanco {
-	public static void main(String[] args) {
-		Cliente aco = new Cliente();
-	}
-
-}
