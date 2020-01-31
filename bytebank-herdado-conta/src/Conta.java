@@ -14,31 +14,23 @@ public abstract class Conta {
 		Conta.total++;
 		this.agencia = agencia;
 		this.numero = numero;
-		System.out.println("Estou criadno uma conta " + this.numero);
+		System.out.println("Estou criando uma conta " + this.numero);
 	}
 
 	public abstract void deposita(double valor);
 
-	public boolean saca(double valor) {
-		if (this.saldo > valor) {
-			this.saldo -= valor;
-			return true;
-		} else {
-			System.out.println("Saldo insuficiente");
-			return false;
+	public void saca(double valor) throws SaldoInsuficienteException {
+		if (this.saldo < valor) {
+			throw new SaldoInsuficienteException("Saldo insufiiente " + this.saldo + ", Valor: "  + valor);
 		}
+
+		this.saldo -= valor;
 	}
 
-	public boolean transfere(double valor, Conta destino) {
+	public void transfere(double valor, Conta destino) throws SaldoInsuficienteException {
 
-		if (this.saca(valor)) {
-			destino.deposita(valor);
-			return true;
-		} else {
-			System.out.println("Saldo insuficiente");
-			return false;
-
-		}
+		this.saca(valor);
+		destino.deposita(valor);
 
 	}
 

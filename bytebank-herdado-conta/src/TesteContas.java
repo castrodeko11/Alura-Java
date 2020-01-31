@@ -1,7 +1,7 @@
 
 public class TesteContas {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SaldoInsuficienteException {
 		// TODO Auto-generated method stub
 
 		ContaCorrente cc = new ContaCorrente(111, 111);

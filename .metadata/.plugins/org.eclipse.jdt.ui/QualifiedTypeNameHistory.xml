@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="bytebank.Conta"/>
-    <fullyQualifiedTypeName name="Conta"/>
     <fullyQualifiedTypeName name="concessionária.Carro"/>
     <fullyQualifiedTypeName name="TesteFuncionario"/>
     <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
@@ -18,4 +17,8 @@
     <fullyQualifiedTypeName name="Gerente"/>
     <fullyQualifiedTypeName name="Cliente"/>
     <fullyQualifiedTypeName name="AutenticacaoUtil"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="Conta"/>
 </qualifiedTypeNameHistroy>
