@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="ControleBonificacao"/>
     <fullyQualifiedTypeName name="EditorVideo"/>
     <fullyQualifiedTypeName name="Designer"/>
-    <fullyQualifiedTypeName name="ContaCorrente"/>
     <fullyQualifiedTypeName name="ContaPoupanca"/>
     <fullyQualifiedTypeName name="SistemaInterno"/>
     <fullyQualifiedTypeName name="Administrador"/>
@@ -21,4 +20,7 @@
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="Conta"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
 </qualifiedTypeNameHistroy>
