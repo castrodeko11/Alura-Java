@@ -1,4 +1,4 @@
-package concessionária;
+package concessionaria;
 
 public class Carro {
 	private int ano;
@@ -9,21 +9,21 @@ public class Carro {
 		if (ano >= 1891) {
 			this.ano = ano;
 		} else {
-			System.out.println("O ano informado está inválido. Por isso usaremos 2017!");
+			System.out.println("O ano informado estï¿½ invï¿½lido. Por isso usaremos 2017!");
 			this.ano = 2017;
 		}
 
 		if (modelo != null) {
 			this.modelo = modelo;
 		} else {
-			System.out.println("O modelo não foi informado. Por isso usaremos Gol!");
+			System.out.println("O modelo nï¿½o foi informado. Por isso usaremos Gol!");
 			this.modelo = "Gol";
 		}
 
 		if (preco > 0) {
 			this.preco = preco;
 		} else {
-			System.out.println("O preço não é válido. Por isso usaremos 40000.0!");
+			System.out.println("O preï¿½o nï¿½o ï¿½ vï¿½lido. Por isso usaremos 40000.0!");
 			this.preco = 40000.0;
 		}
 	}

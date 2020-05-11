@@ -1,4 +1,4 @@
-package concessionária;
+package concessionaria;
 
 public class TestaCarro {
 	public static void main(String[] args) {
