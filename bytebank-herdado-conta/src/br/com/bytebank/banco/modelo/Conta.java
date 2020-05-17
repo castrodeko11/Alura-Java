@@ -1,5 +1,7 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  * Classe representa a moldura de uma conta
  * 
@@ -7,7 +9,7 @@ package br.com.bytebank.banco.modelo;
  *
  */
 
-public abstract class Conta extends Object implements Comparable<Conta> {
+public abstract class Conta extends Object implements Comparable<Conta>, Serializable {
 	protected double saldo;
 	private int agencia;
 	private int numero;
@@ -24,7 +26,7 @@ public abstract class Conta extends Object implements Comparable<Conta> {
 	 * @param numero
 	 */
 	public Conta(int agencia, int numero) {
-		// Static é da classe (Conta.total++;)
+		// Static ï¿½ da classe (Conta.total++;)
 		Conta.total++;
 		this.agencia = agencia;
 		this.numero = numero;
@@ -65,7 +67,7 @@ public abstract class Conta extends Object implements Comparable<Conta> {
 
 	public void setNumero(int numero) {
 		if (numero <= 0) {
-			System.out.println("Não pode valor menor igual a 0");
+			System.out.println("Nï¿½o pode valor menor igual a 0");
 			return;
 		}
 		this.numero = numero;
@@ -85,7 +87,7 @@ public abstract class Conta extends Object implements Comparable<Conta> {
 
 	public void setAgencia(int agencia) {
 		if (agencia <= 0) {
-			System.out.println("Não pode valor menor igual a 0");
+			System.out.println("Nï¿½o pode valor menor igual a 0");
 			return;
 		}
 		this.agencia = agencia;
